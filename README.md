@@ -80,14 +80,19 @@
 2. 项目结构：
 
    CVAE-MNIST/
+   
    ├── results/                  # 输出目录
+   
    │   ├── reconstructions/      # 重建对比图
+   
    │   ├── samples/              # 生成样本
+   
    │   └── loss_curve.png        # 损失曲线
+   
    └── cvae_mnist.ipynb          # Jupyter Notebook
    
 
-3. 训练命令：
+4. 训练命令：
    • 在Jupyter Notebook中顺序执行所有单元格
 
    • 训练结束后查看results目录下的输出
